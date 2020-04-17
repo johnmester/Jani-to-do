@@ -4,9 +4,13 @@ form {
   width: 500px;
   height: 700px;
   background-color: #00ffcf;
-  margin: 30px auto 0;
+  margin: 0px auto 0;
   position: absolute;
   display: block;
+}
+
+label {
+  width: auto;
 }
 
 .todo-box {
@@ -55,17 +59,21 @@ h1{
   border: none;
   width: 30px;
   height: 30px;
+  float: right;
+  margin: 9px;
 }
 
-#incomplete-tasks{
+/* #incomplete-tasks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 10px;
   padding; 0;
   list-style: none;
 }
-
+ */
 li {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-}
+  list-style: none;
+  width: 300px;
+ }
 
